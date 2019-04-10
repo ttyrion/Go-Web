@@ -1,6 +1,6 @@
 # Go
 
-[All about package in Go](https://raw.githubusercontent.com/ttyrion/Go-Web/master/doc/package.md)
+[All about package in Go](https://github.com/ttyrion/Go-Web/blob/master/doc/package.md)
 
 
 # 参考
