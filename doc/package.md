@@ -19,6 +19,13 @@ func main()  {
 }
 
 /* src/Go-Web/math/add.go */
+package math
+
+func Add(a int, b int) int {
+	return a + b;
+}
+
+
 ```
 **导入包时的查找路径：** 当导入一个包时，Go首先在**GOROOT/src**目录中查找这个包目录。如果没找到，就继续在**GOPATH/src**中查找该包目录。这也就是为什么上面的代码示例中，calc.go中导入math包时需要写"Go-Web/math"。
 
