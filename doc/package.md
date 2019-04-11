@@ -30,5 +30,6 @@ func Add(a int, b int) int {
 **导入包时的查找路径：** 当导入一个包时，Go首先在**GOROOT/src**目录中查找这个包目录。如果没找到，就继续在**GOPATH/src**中查找该包目录。这也就是为什么上面的代码示例中，calc.go中导入math包时需要写"Go-Web/math"。
 
 ### 特殊的包：main
-一个标准的可执行Go程序必须有**package main**声明。如果一个Go程序声明了package main，那么 go install 会在**bin**目录生成一个可执行文件，该可执行文件的入口是main函数；如果一个Go程序还声明了除main之外的包，go install 还会在**pkg**目录生成一个包归档文件（package archive file）。比如上面的示例，go install会在bin目录生成一个Go-Web.exe可执行文件，并且在pkg/Go-Web目录下面生成一个math.a包文件。
+Go语言的每个代码文件都属于一个包。一个标准的可执行Go程序必须有**package main**声明。如果一个Go程序声明了package main，那么 go install 会在**bin**目录生成一个可执行文件，该可执行文件的入口是main包的main函数；如果一个Go程序还声明了除main之外的包，go install 还会在**pkg**目录生成一个包归档文件（package archive file）。比如上面的示例，go install会在bin目录生成一个Go-Web.exe可执行文件，并且在pkg/Go-Web目录下面生成一个math.a包文件。
 
+### 包的初始化

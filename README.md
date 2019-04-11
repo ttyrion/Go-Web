@@ -1,5 +1,5 @@
 # Go
-
+[Go Workspace](https://github.com/ttyrion/Go-Web/blob/master/doc/workspace.md)
 [All about package in Go](https://github.com/ttyrion/Go-Web/blob/master/doc/package.md)
 
 
