@@ -3,6 +3,8 @@
 
 [All about package in Go](https://github.com/ttyrion/Go-Web/blob/master/doc/package.md)
 
+[命令行参数解析](https://github.com/ttyrion/Go-Web/blob/master/doc/flag.md)
+
 
 # 参考
 [黄健宏 - 主页）](http://huangz.me/)
