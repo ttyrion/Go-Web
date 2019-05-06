@@ -7,6 +7,8 @@
 
 [Go字符串时间比较](https://github.com/ttyrion/Go-Web/blob/master/doc/time.md)
 
+[类型断言](https://github.com/ttyrion/Go-Web/blob/master/doc/type-assertions.md)
+
 
 # 参考
 [黄健宏 - 主页）](http://huangz.me/)
